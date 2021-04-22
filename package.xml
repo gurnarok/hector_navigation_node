@@ -1,0 +1,24 @@
+<?xml version="1.0"?>
+<package format="2">
+  <name>hector_navigation_node</name>
+  <version>0.0.1</version>
+  <description>The hector_navigation_node package</description>
+
+  <maintainer email="hannu.2.henttinen@samk.fi">Hannu Henttinen</maintainer>
+
+  <license>GPLv3</license>
+
+  <url type="website">https://github.com/gurnarok/hector_navigation_node</url>
+  <url type="repository">https://github.com/gurnarok/hector_navigation_node.git</url>
+  <url type="bugtracker">https://github.com/gurnarok/hector_navigation_node/issues</url>
+
+  <buildtool_depend>catkin</buildtool_depend>
+  <build_depend>roslaunch</build_depend>
+
+  <depend>hector_exploration_planner</depend>
+  <depend>hector_nav_msgs</depend>
+  <depend>roscpp</depend>
+  <depend>rospy</depend>
+  <depend>hector_path_follower</depend>
+  <depend>std_msgs</depend>
+</package>
